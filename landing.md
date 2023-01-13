@@ -1,7 +1,7 @@
 ---
-title: Landing
-layout: landing
-description: 'Lorem ipsum dolor sit amet nullam consequa<br />sed veroeros. tempus adipiscing nulla.'
+title: HelloEngine
+layout: Home
+description: 'HelloEngine, a C++ Game Engine.'
 image: assets/images/pic07.jpg
 nav-menu: true
 ---
