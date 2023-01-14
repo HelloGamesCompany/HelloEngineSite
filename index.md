@@ -141,7 +141,7 @@ nav-menu: true
 				This works using Visual Studio 2019. 
 				</p>
 				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
+					<li><a href="generic.html" class="button">More</a></li>
 				</ul>
 			</div>
 		</div>

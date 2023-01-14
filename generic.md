@@ -1,13 +1,53 @@
 ---
 layout: post
-title: Generic
+title: Scripting System
 description: Lorem ipsum dolor est
 image: assets/images/pic11.jpg
 nav-menu: true
 ---
 
-Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.
+Hello Engine includes a C++ Scripting system, using Hot Reload and Automatic Compilation. You can use C++ code to create behavior scripts, that can then be added to any Game Object. This behaviors get Started and Updated once the Play button is pressed.
+This works using Visual Studio 2019.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.
+Automatic Compilation:
+This is an optional feature, enabled by default, that compiles the Scripting project when:
 
-Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.
+A new script has been added.
+A script has been modified.
+
+Compilation may fail. If that happens, the automatic compilation will not let the Hot Reload system to apply any changes. When compilation fails, the user must go to the Scripting solution and fix any compilation errors. Then, the automatic compilation will detect changes on a script, and try compiling again. Automatic compilation occurs only when the Hello Engine window is focused.
+
+Hot Reload:
+When the Scripting project is Compiled, the Hello Engine code will know about it, and try to replace the old DLL file containing the scripting code with the new one. This process consists of:
+Destroying all DLL information
+Freeing the DLL from memory using FreeLibrary
+Replacing the old DLL with the new one.
+Loading the DLL into memory using LoadLibrary
+Creating all necessary information again.
+
+This is done during runtime so the engine can remain opened in the process.
+
+Creating and using Scripts
+
+To create a Script, is best to create it from the Project Window inside Hello Engine. Choose a name for the script, and it will be created and automatically added into the Scripting project.
+If automatic compilation is enabled, the Scripting project will be compiled. If not, you won’t be able to use the added script until manually compiling the project.
+
+The scripts created are classes that inherit from a HelloBehavior abstract class. Any script that doesnt inherit from HelloBehavior cannot be dragged into a Script Component later on.
+
+To edit the script, go to the Scripting solution, and use it to edit anything you need. Save your changes. If automatic compilation is enabled, the project will be compiled once you enter the Hello Engine window. If not, remember to manually compile to apply your changes.
+
+To use the script, create a Game Object and add a Script Component to it. Then, drag the created script (either the .cpp or .h file) to the Script Component in the Inspector window. When the Play button is pressed, the script will start executing its behavior.
+
+You can add the script member variables to the Script Component inspector window, so they can be edited in the Hello Engine window. Available inspector values include: int, float, std::string, bool, GameObject, Transform and Mesh Renderer components. 
+
+Play / Pause / One Frame / Stop
+
+Once the Play buton is pressed, all Start() methods of every HelloBehavior script attached to a ScriptComponent will be called. Every frame from then, the Update() method will be called. 
+The Scene gets internally serialized, to recover its state once the Stop button is pressed.
+
+If pressed pause, the Update() methods won’t be called.
+
+If pressed One Frame (during Pause), the Update() methods will be called once, and then stop again.
+
+If pressed Stop, all HelloBehaviors will stop updating and the scene will serialize to the state prior to pressing the Play button.
+
