@@ -1,8 +1,11 @@
 ---
 title: HELLO ENGINE 
 layout: landing
-description: 'A C++ / OpenGL Game Engine made by video game development students Zhida Chen & Adrià Sellarés. Hello Engine is a fully featured game engine, with Level Editor, Entity Component System, Custom File Format, Scripting system, Undo/Redo, Resource Manager, Serialization system, and many others.
-This was a university assignment made in 3 months~.'
+description: 'A C++ / OpenGL Game Engine made by video game development students Zhida Chen & Adrià Sellarés. 
+
+Hello Engine is a fully featured game engine, with Level Editor, Entity Component System, Custom File Format, Scripting system, Undo/Redo, Resource Manager, Serialization system, and many others.
+
+This was a university assignment made in 3~ months.'
 
 image: assets/images/pic07.jpg
 nav-menu: true
@@ -15,9 +18,9 @@ nav-menu: true
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h2>Sed amet aliquam</h2>
+			<h2>Creators</h2>
 		</header>
-		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
+		<p>Zhida Chen & Adrià Sellarés</p>
 	</div>
 </section>
 
@@ -30,12 +33,9 @@ nav-menu: true
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Orci maecenas</h3>
+					<h3>Level Editor</h3>
 				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
-				</ul>
+				<p>A Scene camera shows the 3D scene currently being edited. You can edit all object’s position, rotation and scale using a gizmo. You can also pick any object from the scene by clicking on it on the Scene Window (this has been done using a Raycast).</p>
 			</div>
 		</div>
 	</section>
