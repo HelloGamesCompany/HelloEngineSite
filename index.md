@@ -45,7 +45,7 @@ nav-menu: true
 					<h3>Adriá Sellarès</h3>
 				</header>
 				<ul>
-  					<li>Full Rendering System with OpenGL</li>
+  					<li>Rendering System with OpenGL</li>
   					<li>Custom File Format</li>
   					<li>Entity Component System</li>
 					<li>Hot Reload & Inspector Fields</li>
