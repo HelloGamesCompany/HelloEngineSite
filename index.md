@@ -18,7 +18,7 @@ nav-menu: true
 <section id="two" class="spotlights">
 	<section>
 		<img class = "avatar-image" src="{% link assets/images/Chen.jpg %}" alt="" data-position="center center" />
-		<div class="content" style="width:500px !important">
+		<div class="content" style="width:450px !important">
 			<div class="inner">
 				<header class="major">
 					<h3>Zhida Chen</h3>
@@ -26,10 +26,11 @@ nav-menu: true
 				<ul>
   					<li>File system</li>
   					<li>Undo/Redo system</li>
-  					<li>Collaborated in Serialize scene</li>
-					<li>Collaborated in GameObject</li>
-					<li>Collaborated in Scripting system</li>
+  					<li>Collaborated on Serialize scene</li>
+					<li>Collaborated on GameObject</li>
+					<li>Collaborated on Scripting system</li>			
 					<li>Other miscellaneous tasks</li>
+					<li>Website Creation</li>
 				</ul>
 				<ul class="actions">
 					<a href="https://github.com/Xidashuaige" target="_blank" class="button">GitHub</a>
@@ -38,18 +39,18 @@ nav-menu: true
 			</div>				
 		</div>
 		<img class = "avatar-image" src="{% link assets/images/Adria.jpg %}" alt="" data-position="center center" />	
-		<div class="content" style="width:500px !important">
+		<div class="content" style="width:450px !important">
 			<div class="inner">
 				<header class="major">
 					<h3>Adriá Sellarès</h3>
 				</header>
 				<ul>
-  					<li>File system</li>
-  					<li>Undo/Redo system</li>
-  					<li>Collaborated in Serialize scene</li>
-					<li>Collaborated in GameObject</li>
-					<li>Collaborated in Scripting system</li>
-					<li>Other miscellaneous tasks</li>
+  					<li>Full Rendering System with OpenGL</li>
+  					<li>Custom File Format</li>
+  					<li>Entity Component System</li>
+					<li>Hot Reload & Inspector Fields</li>
+					<li>Time Management</li>
+					<li>Collaborated on Resource Manager, Scripting, Serialization</li>
 				</ul>
 				<ul class="actions">
 					<a href="https://github.com/AdriaSeSa" target="_blank" class="button">GitHub</a>
@@ -70,7 +71,7 @@ nav-menu: true
 		</div>
 	</section>
 	<section>
-		<img class = "image" src="{% link assets/images/pic09.jpg %}" alt="" data-position="25% 25%" />
+		<img class = "image" src="{% link assets/gifs/entityComponent.gif %}" style="transform:translateY(50%)" alt="" data-position="25% 25%" />
 		<div class="content">
 			<div class="inner">
 				<header class="major">
@@ -89,7 +90,7 @@ nav-menu: true
 		</div>
 	</section>
 	<section>
-		<img class = "image" src="{% link assets/images/pic10.jpg %}" alt="" data-position="25% 25%" />
+		<img class = "image" src="{% link assets/gifs/CFF.gif %}" style="transform:translateY(25%)" alt="" data-position="25% 25%" />
 		<div class="content">
 			<div class="inner">
 				<header class="major">
@@ -120,7 +121,7 @@ nav-menu: true
 		</div>
 	</section>
 	<section>
-		<img class = "image" src="{% link assets/images/pic10.jpg %}" alt="" data-position="25% 25%" />
+		<img class = "image" src="{% link assets/gifs/resource.gif %}" style="transform:translateY(25%)"  alt="" data-position="25% 25%" />
 		<div class="content">
 			<div class="inner">
 				<header class="major">
@@ -135,7 +136,7 @@ nav-menu: true
 		</div>
 	</section>
 	<section>
-		<img class = "image" src="{% link assets/images/pic10.jpg %}" alt="" data-position="25% 25%" />
+		<img class = "image" src="{% link assets/gifs/Serialization.gif %}" alt="" data-position="25% 25%" />
 		<div class="content">
 			<div class="inner">
 				<header class="major">
@@ -148,7 +149,7 @@ nav-menu: true
 		</div>
 	</section>
 	<section>
-		<img class = "image" src="{% link assets/images/Scripting.png %}" alt="" data-position="center center" />
+		<img class = "image" src="{% link assets/gifs/Scripting.gif %}" style="transform:translateY(25%)" alt="" data-position="center center" />
 		<div class="content">
 			<div class="inner">
 				<header class="major">
@@ -165,5 +166,20 @@ nav-menu: true
 		</div>
 	</section>
 </section>
+
+<!-- Three -->
+<section id="three">
+	<div class="inner">
+		<header class="major">
+			<h2>Provided by Hello Games Company</h2>
+		</header>
+		<p>
+		A github organization  created by Xidashuaige & AdriaSeSa which publish college project.</p>
+		<ul class="actions">
+			<li><a href="https://github.com/HelloGamesCompany" target="_blank" class="button">Hello Company Github</a></li>
+		</ul>
+	</div>
+</section>
+
 </div>
 

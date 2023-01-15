@@ -2,9 +2,13 @@
 layout: post
 title: Scripting System
 description: Lorem ipsum dolor est
-image: assets/images/pic11.jpg
 nav-menu: true
 ---
+
+<video width="320" height="240" controls>
+  <source src="assets/videos/HelloEngineDemo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 <div style="text-align: justify;">Hello Engine includes a C++ Scripting system, using Hot Reload and Automatic Compilation. You can use C++ code to create behavior scripts, that can then be added to any Game Object. This behaviors get Started and Updated once the Play button is pressed.
 This works using Visual Studio 2019.</div><br>
