@@ -14,22 +14,52 @@ nav-menu: true
 <!-- Main -->
 <div id="main">
 
-<!-- One -->
-<section id="one">
-	<div class="inner">
-		<header class="major">
-			<h2>Creators</h2>
-		</header>
-		<p>Zhida Chen & Adrià Sellarés</p>
-	</div>
-</section>
-
 <!-- Two -->
 <section id="two" class="spotlights">
 	<section>
-		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic08.jpg %}" alt="" data-position="center center" />
-		</a>
+		<img class = "avatar-image" src="{% link assets/images/Chen.jpg %}" alt="" data-position="center center" />
+		<div class="content" style="width:500px !important">
+			<div class="inner">
+				<header class="major">
+					<h3>Zhida Chen</h3>
+				</header>
+				<ul>
+  					<li>File system</li>
+  					<li>Undo/Redo system</li>
+  					<li>Collaborated in Serialize scene</li>
+					<li>Collaborated in GameObject</li>
+					<li>Collaborated in Scripting system</li>
+					<li>Other miscellaneous tasks</li>
+				</ul>
+				<ul class="actions">
+					<a href="https://github.com/Xidashuaige" target="_blank" class="button">GitHub</a>
+					<a href="https://www.linkedin.com/in/zhida-chen-06940b1a9" target="_blank" class="button">Linkedin</a>
+				</ul>
+			</div>				
+		</div>
+		<img class = "avatar-image" src="{% link assets/images/Adria.jpg %}" alt="" data-position="center center" />	
+		<div class="content" style="width:500px !important">
+			<div class="inner">
+				<header class="major">
+					<h3>Adriá Sellarès</h3>
+				</header>
+				<ul>
+  					<li>File system</li>
+  					<li>Undo/Redo system</li>
+  					<li>Collaborated in Serialize scene</li>
+					<li>Collaborated in GameObject</li>
+					<li>Collaborated in Scripting system</li>
+					<li>Other miscellaneous tasks</li>
+				</ul>
+				<ul class="actions">
+					<a href="https://github.com/AdriaSeSa" target="_blank" class="button">GitHub</a>
+					<a href="https://www.linkedin.com/in/adria-sellares" target="_blank" class="button">Linkedin</a>
+				</ul>
+			</div>		
+		</div>		
+	</section>
+	<section>
+		<img class = "image" src="{% link assets/images/LevelEditor.png %}" alt="" data-position="center center" />
 		<div class="content">
 			<div class="inner">
 				<header class="major">
@@ -40,9 +70,7 @@ nav-menu: true
 		</div>
 	</section>
 	<section>
-		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic09.jpg %}" alt="" data-position="top center" />
-		</a>
+		<img class = "image" src="{% link assets/images/pic09.jpg %}" alt="" data-position="25% 25%" />
 		<div class="content">
 			<div class="inner">
 				<header class="major">
@@ -61,9 +89,7 @@ nav-menu: true
 		</div>
 	</section>
 	<section>
-		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic10.jpg %}" alt="" data-position="25% 25%" />
-		</a>
+		<img class = "image" src="{% link assets/images/pic10.jpg %}" alt="" data-position="25% 25%" />
 		<div class="content">
 			<div class="inner">
 				<header class="major">
@@ -81,9 +107,7 @@ nav-menu: true
 		</div>
 	</section>
 		<section>
-		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic10.jpg %}" alt="" data-position="25% 25%" />
-		</a>
+		<img class = "image" src="{% link assets/gifs/UndoRedo.gif %}" alt="" data-position="25% 25%" />
 		<div class="content">
 			<div class="inner">
 				<header class="major">
@@ -96,9 +120,7 @@ nav-menu: true
 		</div>
 	</section>
 	<section>
-		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic10.jpg %}" alt="" data-position="25% 25%" />
-		</a>
+		<img class = "image" src="{% link assets/images/pic10.jpg %}" alt="" data-position="25% 25%" />
 		<div class="content">
 			<div class="inner">
 				<header class="major">
@@ -113,9 +135,7 @@ nav-menu: true
 		</div>
 	</section>
 	<section>
-		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic10.jpg %}" alt="" data-position="25% 25%" />
-		</a>
+		<img class = "image" src="{% link assets/images/pic10.jpg %}" alt="" data-position="25% 25%" />
 		<div class="content">
 			<div class="inner">
 				<header class="major">
@@ -128,9 +148,7 @@ nav-menu: true
 		</div>
 	</section>
 	<section>
-		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic10.jpg %}" alt="" data-position="25% 25%" />
-		</a>
+		<img class = "image" src="{% link assets/images/Scripting.png %}" alt="" data-position="center center" />
 		<div class="content">
 			<div class="inner">
 				<header class="major">
@@ -147,19 +165,5 @@ nav-menu: true
 		</div>
 	</section>
 </section>
-
-<!-- Three -->
-<section id="three">
-	<div class="inner">
-		<header class="major">
-			<h2>Massa libero</h2>
-		</header>
-		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-		<ul class="actions">
-			<li><a href="generic.html" class="button next">Get Started</a></li>
-		</ul>
-	</div>
-</section>
-
 </div>
 
