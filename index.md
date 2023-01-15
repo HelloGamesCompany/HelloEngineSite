@@ -3,7 +3,7 @@ title: HELLO ENGINE
 layout: landing
 description: 'A C++ / OpenGL Game Engine made by video game development students Zhida Chen & Adrià Sellarés. 
 
-Hello Engine is a fully featured game engine, with Level Editor, Entity Component System, Custom File Format, Scripting system, Undo/Redo, Resource Manager, Serialization system, and many others.
+Hello Engine is a fully featured game engine for Windows platform, with Level Editor, Entity Component System, Custom File Format, Scripting system, Undo/Redo, Resource Manager, Serialization system, and many others.
 
 This was a university assignment made in 3~ months.'
 
