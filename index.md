@@ -17,7 +17,7 @@ nav-menu: true
 <!-- Two -->
 <section id="two" class="spotlights">
 	<section>
-		<img src="{% link assets/images/Chen.jpg %}" width="400" alt="" data-position="center center" />
+		<img class = "avatar-image" src="{% link assets/images/Chen.jpg %}" alt="" data-position="center center" />
 		<div class="content" style="width:500px !important">
 			<div class="inner">
 				<header class="major">
@@ -37,7 +37,7 @@ nav-menu: true
 				</ul>
 			</div>				
 		</div>
-		<img src="{% link assets/images/Adria.jpg %}" width="400" alt="" data-position="center center" />	
+		<img class = "avatar-image" src="{% link assets/images/Adria.jpg %}" alt="" data-position="center center" />	
 		<div class="content" style="width:500px !important">
 			<div class="inner">
 				<header class="major">
@@ -59,7 +59,7 @@ nav-menu: true
 		</div>		
 	</section>
 	<section>
-		<img src="{% link assets/images/pic08.jpg %}" alt="" data-position="center center" />
+		<img class = "image" src="{% link assets/images/LevelEditor.png %}" alt="" data-position="center center" />
 		<div class="content">
 			<div class="inner">
 				<header class="major">
@@ -70,7 +70,7 @@ nav-menu: true
 		</div>
 	</section>
 	<section>
-		<img src="{% link assets/images/pic09.jpg %}" alt="" data-position="25% 25%" />
+		<img class = "image" src="{% link assets/images/pic09.jpg %}" alt="" data-position="25% 25%" />
 		<div class="content">
 			<div class="inner">
 				<header class="major">
@@ -89,7 +89,7 @@ nav-menu: true
 		</div>
 	</section>
 	<section>
-		<img src="{% link assets/images/pic10.jpg %}" alt="" data-position="25% 25%" />
+		<img class = "image" src="{% link assets/images/pic10.jpg %}" alt="" data-position="25% 25%" />
 		<div class="content">
 			<div class="inner">
 				<header class="major">
@@ -107,7 +107,7 @@ nav-menu: true
 		</div>
 	</section>
 		<section>
-		<img src="{% link assets/images/pic10.jpg %}" alt="" data-position="25% 25%" />
+		<img class = "image" src="{% link assets/gifs/UndoRedo.gif %}" alt="" data-position="25% 25%" />
 		<div class="content">
 			<div class="inner">
 				<header class="major">
@@ -120,7 +120,7 @@ nav-menu: true
 		</div>
 	</section>
 	<section>
-		<img src="{% link assets/images/pic10.jpg %}" alt="" data-position="25% 25%" />
+		<img class = "image" src="{% link assets/images/pic10.jpg %}" alt="" data-position="25% 25%" />
 		<div class="content">
 			<div class="inner">
 				<header class="major">
@@ -135,7 +135,7 @@ nav-menu: true
 		</div>
 	</section>
 	<section>
-		<img src="{% link assets/images/pic10.jpg %}" alt="" data-position="25% 25%" />
+		<img class = "image" src="{% link assets/images/pic10.jpg %}" alt="" data-position="25% 25%" />
 		<div class="content">
 			<div class="inner">
 				<header class="major">
@@ -148,7 +148,7 @@ nav-menu: true
 		</div>
 	</section>
 	<section>
-		<img src="{% link assets/images/pic10.jpg %}" alt="" data-position="25% 25%" />
+		<img class = "image" src="{% link assets/images/Scripting.png %}" alt="" data-position="center center" />
 		<div class="content">
 			<div class="inner">
 				<header class="major">

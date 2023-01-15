@@ -44,8 +44,8 @@
             @include vendor('flex-direction', 'column');
             @include vendor('justify-content', 'center');
             @include vendor('align-items', 'center');
-            @include padding(2em, 3em);
-            width: 70%;
+            @include padding(2em, 2em);
+            width: 68%;
             >.inner {
                 margin: 0 auto;
                 max-width: 100%;
@@ -57,6 +57,43 @@
             background-color: desaturate(lighten(_palette(bg-alt), 4), 2);
             >.content {
                 @include vendor('align-items', 'flex-end');
+            }
+        }
+        >.avatar-image {
+            background-position: center center;
+            background-size: cover;
+            border-radius: 0;
+            display: block;
+            position: relative;
+            width: 23%;
+            img {
+                border-radius: 0;
+                display: block;
+                width: 100%;
+            }
+            &:before {
+                background: transparentize(_palette(bg), 0.1);
+                content: '';
+                display: block;
+                height: 100%;
+                left: 0;
+                opacity: 0;
+                position: absolute;
+                top: 0;
+                width: 100%;
+            }
+        }
+        >.avatar-content {
+            @include vendor('display', 'flex');
+            @include vendor('flex-direction', 'column');
+            @include vendor('justify-content', 'center');
+            @include vendor('align-items', 'center');
+            @include padding(2em, 2em);
+            width: 27%;
+            >.avatar-inner {
+                margin: 0 auto;
+                max-width: 100%;
+                width: _size(inner);
             }
         }
     }
