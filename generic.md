@@ -2,9 +2,10 @@
 layout: post
 title: Scripting System
 description: Lorem ipsum dolor est
-image: assets/images/pic11.jpg
 nav-menu: true
 ---
+
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/udQMH8dce5E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <div style="text-align: justify;">Hello Engine includes a C++ Scripting system, using Hot Reload and Automatic Compilation. You can use C++ code to create behavior scripts, that can then be added to any Game Object. This behaviors get Started and Updated once the Play button is pressed.
 This works using Visual Studio 2019.</div><br>
