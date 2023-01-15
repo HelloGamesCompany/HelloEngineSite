@@ -5,7 +5,7 @@ description: Lorem ipsum dolor est
 nav-menu: true
 ---
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/udQMH8dce5E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/udQMH8dce5E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br>
 
 <div style="text-align: justify;">Hello Engine includes a C++ Scripting system, using Hot Reload and Automatic Compilation. You can use C++ code to create behavior scripts, that can then be added to any Game Object. This behaviors get Started and Updated once the Play button is pressed.
 This works using Visual Studio 2019.</div><br>
@@ -17,6 +17,9 @@ This is an optional feature, enabled by default, that compiles the Scripting pro
 * A script has been modified.
 
 <div style="text-align: justify;">Compilation may fail. If that happens, the automatic compilation will not let the Hot Reload system to apply any changes. When compilation fails, the user must go to the Scripting solution and fix any compilation errors. Then, the automatic compilation will detect changes on a script, and try compiling again. Automatic compilation occurs only when the Hello Engine window is focused.</div><br>
+
+<img src="{% link assets/gifs/scriptinggif1.gif %}" alt="not found"/>
+
 **Hot Reload** 
 
 When the Scripting project is Compiled, the Hello Engine code will know about it, and try to replace the old DLL file containing the scripting code with the new one. This process consists of:
@@ -40,6 +43,9 @@ To edit the script, go to the Scripting solution, and use it to edit anything yo
 To use the script, create a Game Object and add a Script Component to it. Then, drag the created script (either the .cpp or .h file) to the Script Component in the Inspector window. When the Play button is pressed, the script will start executing its behavior.<br><br>
 
 You can add the script member variables to the Script Component inspector window, so they can be edited in the Hello Engine window. Available inspector values include: int, float, std::string, bool, GameObject, Transform and Mesh Renderer components. </div><br>
+
+<img src="{% link assets/gifs/scriptinggif2.gif %}" alt="not found"/>
+
 **Play / Pause / One Frame / Stop** 
 
 <div style="text-align: justify;">Once the Play buton is pressed, all Start() methods of every HelloBehavior script attached to a ScriptComponent will be called. Every frame from then, the Update() method will be called. 
