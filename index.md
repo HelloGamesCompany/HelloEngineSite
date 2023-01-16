@@ -42,7 +42,7 @@ nav-menu: true
 		<div class="content" style="width:450px !important">
 			<div class="inner">
 				<header class="major">
-					<h3>Adriá Sellarès</h3>
+					<h3>Adrià Sellarés</h3>
 				</header>
 				<ul>
   					<li>Rendering System with OpenGL</li>
