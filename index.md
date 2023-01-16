@@ -173,7 +173,7 @@ nav-menu: true
 					<h3>Licence</h3>
 				</header>
 				<p class="text-align">
-				MIT License</br></br>
+				MIT License<br><br>
 
 	Copyright (c) 2022 HelloGamesCompany<br><br>
 
