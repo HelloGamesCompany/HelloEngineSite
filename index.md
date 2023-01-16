@@ -165,9 +165,7 @@ nav-menu: true
 			</div>
 		</div>
 	</section>
-</section>
-
-<section>
+	<section>
 		
 	<div class="content">
 		<div class="inner">
@@ -200,6 +198,9 @@ nav-menu: true
 			</div>
 		</div>
 </section>
+</section>
+
+
 
 	
 <!-- Three -->
