@@ -170,7 +170,7 @@ nav-menu: true
 	<div class="content">
 		<div class="inner">
 				<header class="major">
-					<h3>Licence</h3>
+					<h3>License</h3>
 				</header>
 				<p class="text-align">
 				MIT License<br><br>
