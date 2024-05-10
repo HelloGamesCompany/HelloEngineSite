@@ -33,7 +33,7 @@ nav-menu: true
 					<li>Website Creation</li>
 				</ul>
 				<ul class="actions">
-					<a href="https://github.com/Xidashuaige" target="_blank" class="button">GitHub</a>
+					<a href="https://github.com/WestSaltFish" target="_blank" class="button">GitHub</a>
 					<a href="https://www.linkedin.com/in/zhida-chen-06940b1a9" target="_blank" class="button">Linkedin</a>
 				</ul>
 			</div>				
